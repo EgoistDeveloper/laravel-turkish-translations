@@ -1,4 +1,4 @@
-## Laravel 8.* Türkçe dil dosyaları
+## Laravel 9.x Türkçe dil dosyaları
 
 > "[Laravel Türkiye](http://laravel.gen.tr/)" tarafından Laravel 8.* sürümleri için tercüme edilen ve geliştirilen Laravel Türkçe dil dosyalarıdır.
 
@@ -7,9 +7,11 @@
 
 #### Dosyaların kopyalanması
 
-`tr/` dizinini `/resources/lang/` dizini içerisine kopyalayınız, sonuç olarak `/resources/lang/tr/` şeklinde olacaktır.
+`tr/` dizinini `/lang/` dizini içerisine kopyalayınız, sonuç olarak `/lang/tr/` şeklinde olacaktır.
 
-`tr.json` dosyasını `/resources/lang/` dizini içerisine kopyalayınız, sonuç olarak `/resources/lang/tr.json` şeklinde olacaktır.
+⚠️ laravel 9.x sürümlerinede çeviriler `/resources/lang` klasörü altında tutulurken artık `/lang` klasörü altında yer alıyor.
+
+`tr.json` dosyasını `/lang/` dizini içerisine kopyalayınız, sonuç olarak `/resources/lang/tr.json` şeklinde olacaktır.
 
 #### Laravel yazılımını Türkçe dilde kullanma
 
@@ -19,6 +21,8 @@
 // 'locale' => 'en',
 'locale' => 'tr',
 ```
+
+⚠️ Bu çeviriler çevirisi mümükün olan alanları kapsar. Uygulamanın tamamını ve paketleri etkilemez.
 
 ### Lisans
 
